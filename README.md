@@ -5,6 +5,21 @@ This is a fork of [fayimora/basic-scala-project.g8](https://github.com/fayimora/
 * SBT configuration for `0.13.0` and `Scala 2.10.3` dependencies
 * project `name`, `organization` and `version` customizable as variables
 
+
+## USAGE
+
+If you have giter8 installed:
+
+```
+g8 fernandoacorreia/basic-scala-project
+```
+
+Using Docker, without installing giter8:
+
+```
+docker run --rm -it -v $PWD:/g8out fernandoacorreia/g8 fernandoacorreia/basic-scala-project
+```
+
 ## CHANGELOG
 
 ### 0.3
